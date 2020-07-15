@@ -13,5 +13,5 @@ const db = knex({
 app.set("db", db);
 
 app.listen(8000, ()=>{
-    console.log("Working... Listing");
+    console.log("Working... Listening");
 });
